@@ -6,18 +6,17 @@
   "homepage": "https://KrishnaBehera10.github.io/Todo-Application",
   "scripts": {
     "dev": "vite",
-    "build": "react-scripts build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "react-scripts start",
-    "predeploy": "npm run build",
+    "predeploy": "vite build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.7",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-scripts": "^5.0.1",
     "tailwindcss": "^4.1.7"
   },
   "devDependencies": {
